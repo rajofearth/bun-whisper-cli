@@ -1,0 +1,22 @@
+{
+  "name": "bun-whisper-cli",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.0",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "ora": "^9.0.0",
+    "wavefile": "^11.0.0"
+  }
+}
