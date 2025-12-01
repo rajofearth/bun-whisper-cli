@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Text } from 'ink';
 import { useTranscriber } from '../hooks/useTranscriber.js';
 import { Header } from './Header.js';

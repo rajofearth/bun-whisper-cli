@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Text, Newline } from 'ink';
 import type { TranscriptionResult } from '../hooks/useTranscriber.js';
 

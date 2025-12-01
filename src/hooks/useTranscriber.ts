@@ -3,7 +3,7 @@ import { pipeline, env, type AutomaticSpeechRecognitionOutput } from '@huggingfa
 import { loadAudio } from '../utils/audio.js';
 
 // Configuration
-env.allowLocalModels = false;
+env.allowLocalModels = true;
 const MODEL_NAME = 'Xenova/whisper-tiny';
 
 // --- Hack: Suppress specific "content-length" warnings quietly ---
